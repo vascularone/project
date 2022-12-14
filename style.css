@@ -1,0 +1,136 @@
+.navbar-list {
+    display:flex;
+    flex-direction: row;
+    gap:5rem;
+   margin-left:10rem;
+
+}
+
+body {
+   
+    /* background-color: rgb(240,240,240); */
+    margin:0;
+    font-family :Arial, Helvetica, sans-serif
+}
+ul {
+    list-style:none;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left:2rem;
+    padding-right:2rem;
+}
+
+.navbar-title-container {
+    display:flex;
+    flex-direction: row;
+}
+.navbar-title {
+    font-size:x-large;
+    font-weight:bold;
+}
+.navbar-login-container {
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+}
+.main-section{
+    width: 100vw;
+}
+
+.navbar-item-link {
+    font-weight:bold;
+    color:rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+.navbar-login-button {
+    text-decoration: none;
+    font-size:large;
+    color:cadetblue;
+    /* background-color:red; */
+    border:2px solid #ccc;
+    border-radius:16px;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left: 1.25em;rem;
+    padding-right:1.25rem;
+}
+.navbar-login-button:hover{
+    transition:all 200ms;
+    background-color:#ccc;
+}
+.navbar-try-button{
+    text-decoration: none;
+    font-size:medium;
+    color:white;
+    background-color:cadetblue;
+    border:2px solid cadetblue;
+    border-radius:16px;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left:1.25rem;
+    padding-right:1.25rem;
+}
+.navbar-try-button:hover
+{
+    transition:all 200ms;
+    background-color:rgb(80,150,150);
+}
+.main-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    max-width:50rem;
+}
+
+.main-text-container {
+    display:flex;
+    flex-direction: column;
+    padding-left:2.5rem;
+    padding-top:9rem;
+}
+
+.main-text-main-text {
+    font-size:75px;
+    font-weight:bolder;
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+.main-text-second-text {
+    font-size:40px;
+    color:rgbz(0,0,0,0.6);
+    padding-top:2rem;
+    padding-bottom:4rem;
+}
+
+.main-text-button{
+    text-decoration: none;
+    font-size:medium;
+    color:white;
+    font-weight: bold;
+    background-color:cadetblue;
+    border:2px solid cadetblue;
+    border-radius:16px;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left:1.25rem;
+    padding-right:1.25rem;
+    margin-top:1rem;
+}
+
+.main-text-button:hover {
+    transition:all 200ms;
+    background-color:rgb(69,125,126);
+}
+
+.main-image-container {
+    z-index:-10;
+    position:absolute;
+    right:0;
+
+}
